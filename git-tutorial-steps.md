@@ -56,6 +56,14 @@ You have successfully pushed your code to the main branch of your github reposit
 
 - after finishing everything, the team leader will pull and merge all the branches together in the main branch.
 
-// creating a branch
+// creating a branch and pushing code into it
 
 18. git branch tushar
+19. git checkout tushar //to go into the branch
+20. git add .
+21. git commit "new-branch-created"
+22. git push -u origin tushar //if you remove -u then it will only push in tushar branch this time only. But if you want to continue pushing to this tushar branch use -u
+
+//merging
+
+23. on your github you can see the notification "Compare & Pull Request". Click it and merge the branch.
