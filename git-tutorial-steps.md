@@ -4,4 +4,44 @@
 
 1. Install git on your pc
 2. Sign in your github account on your vscode
-3.
+3. Open the project folder in vscode
+4. Go to the terminal and use bash option
+
+In the console now write
+
+5. git config --global user.name "NoorTushar"
+6. git config --global user.email "tushar.noor.khan@gmail.com"
+
+Now, initialize your project in git
+
+7. git init
+
+Now, Staging (get your files on stage)
+
+8. git add .
+   //this will add all the files on stage
+   //if you want to add a specific file then say **git add index.js**
+
+9. git commit -m "proper-name-for-commit" //this creates locally
+
+Now before you can upload the files on GitHub repository, create repository and name it like your project folder name for efficiency.
+
+10. Create repository with same project name in GitHub
+
+11. Make sure you have selected the HTTPS option for link generation
+
+Back to console
+
+12. git branch -M main
+13. git remote add origin https://github.com/NoorTushar/Git-Github-Tutorial.git
+14. git push -u origin main //this sends to cloud
+
+note: -u means upstream and it says that my code will always go and store to main
+
+### You have successfully pushed your code to the main branch of your github repository.
+
+**Now when you Update and push the code again**
+
+15. git add .
+16. git commit -m "how-to-update"
+17. git push
